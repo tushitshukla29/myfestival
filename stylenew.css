@@ -1,0 +1,82 @@
+body{
+    background-image: url('images.jpeg');
+    background-position: center;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+   
+
+}
+.container .navcreate{
+    color: #fff;
+    width: auto;
+    margin: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.login {
+    backface-visibility: hidden;
+    color: #ffff;
+    width:  500px;
+    height: 600px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    background:center;
+    
+    
+}
+.login p{
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    margin-right: 60%;
+    padding: 5%;
+    font-size: auto;
+    color: rgba(255, 255, 255, 0.571);
+
+}
+.login input{
+    width: 100%;
+    margin: 20px;
+    color: #ffff;
+    margin-right: 60%;
+   
+}
+.login input[ type="text"],[ type="password"]{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+    
+}
+.login input[ type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #ffff;
+    font-size: medium;
+    border-radius: 20px;
+   
+}
+.login input[ type="submit"]:hover{
+    cursor: pointer;
+    background: chocolate;
+    transition: all 0.5s;
+}
+
+.login a{
+    color: darkgray;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 25px;
+}
+.login a:hover{
+    color: grey;
+}

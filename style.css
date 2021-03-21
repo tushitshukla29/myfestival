@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+  background-image: url("women-celebrating-diwali-festival-of-lights-royalty-free-image-1603894820_.jpeg");
+    background-position: center;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login {
+    backface-visibility: hidden;
+    color: #ffff;
+    width:  500px;
+    height: 600px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    background:center;
+}
+.avatar {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    position: relative;
+    top: auto;
+    left: 170px;
+    
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.login p{
+    margin: auto;
+    padding: 0%;
+    font-size: auto;
+}
+.login input{
+    width: 100%;
+    margin: 20px;
+    color: #ffff;
+}
+.login input[ type="text"],[ type="password"]{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+.login input[ type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #ffff;
+    font-size: medium;
+    border-radius: 20px;
+   
+}
+.login input[ type="submit"]:hover{
+    cursor: pointer;
+    background: chocolate;
+    transition: all 0.5s;
+}
+.login a{
+    color: darkgray;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+}
+.login a:hover{
+    color: grey;
+}
+.login .social-icon{
+    position: relative;
+    left: 130px;
+   bottom: 2px;
+}
+.login .social-icon ul li{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+}
+.login .social-icon ul li a{
+    display: block;
+    padding: 12px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.login .social-icon ul li a:hover{
+    background:crimson;
+    color:#fff;
+}
